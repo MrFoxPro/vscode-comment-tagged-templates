@@ -32,6 +32,19 @@
             {
                 "injectTo": [
                     "source.js",
+                    "source.jsx",
+                    "source.ts",
+                    "source.tsx"
+                ],
+                "scopeName": "inline.edgeql",
+                "path": "./syntaxes/edgeql.json",
+                "embeddedLanguages": {
+                    "meta.embedded.block.edgeql": "edgeql"
+                }
+            },
+            {
+                "injectTo": [
+                    "source.js",
                     "source.js.jsx",
                     "source.jsx",
                     "source.ts",
@@ -120,5 +133,16 @@
         "build": "node ./build/build",
         "getEmbedded": "node ./build/getEmbedded",
         "test": "node ./test/index.mjs"
+    },
+    "__metadata": {
+        "id": "700f8472-f3c3-4f26-9fef-c6ad8e5fafe8",
+        "publisherId": "f164f116-e2aa-496b-84dc-2451248e8beb",
+        "publisherDisplayName": "Matt Bierner",
+        "targetPlatform": "undefined",
+        "isApplicationScoped": false,
+        "updated": true,
+        "isPreReleaseVersion": false,
+        "installedTimestamp": 1697892415750,
+        "preRelease": false
     }
 }
